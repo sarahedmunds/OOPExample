@@ -6,7 +6,7 @@ def main():
     # cost = 1 and name = 'Town Crier'
     # instantiate an object called townCrier
     # creating an instance of the class
-    townCrier = Minion(1, 'Town Crier', 1, 2)
+    townCrier = Minion(1,'Town Crier', 1, 2)
     
     # Create an instance of the class called redbandwasp
     # Attribtues cost = 2, name = Redband Wasp
@@ -18,7 +18,7 @@ def main():
 
     townCrier.printCardInfo()
     townCrier.printMinionInfo()
-    
+
     redbandWasp.printCardInfo()
     warPath.printCardInfo()
 
